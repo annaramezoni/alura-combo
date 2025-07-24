@@ -22,4 +22,13 @@
 }
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content__buttom {
+    background-color: var(--buttom-blue);
+    color: var(--text-main-color);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
 }
