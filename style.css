@@ -8,10 +8,11 @@
     --background-color: #00030C;
     --text-main-color: #FFFFFF;
     --text-secondary-color: #C0C0C0;
+    --text-third-color: #F9F9F9;
     --buttom-blue: #167BF7;
     --primary-font: Inter;
 }
-.main {
+.content {
     background-color: var(--background-color);
     color: var(--text-main-color);
     font-family: var(--primary-font);
@@ -30,7 +31,6 @@
     align-items: center;
    }
 .main__content__box{
-    
     text-align: center;
     margin: 0 6rem;
 }
@@ -57,4 +57,24 @@
 .main__content__notice {
     color: var(--text-secondary-color);
     font-size: 0.75rem;
+}
+.second__content {
+    margin: 0 10rem;
+}
+.second__content__image {
+    width: 80%;
+}
+.content__description {
+    padding: 2rem;
+}
+.second__content__title {
+    font-size: 3rem;
+    margin: 0.1rem;
+}
+.second__content__text {
+    color: var(--text-third-color);
+}
+.third__buttom {
+    display: inline-block;
+    margin-top: 1rem;
 }
