@@ -96,3 +96,34 @@
     color: var(--text-main-color);
     font-size: 2rem;
 }
+.footnote {
+    /*display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center */
+    margin: 12rem 3rem 5rem 3rem;
+    text-align: center;
+    
+}
+.footnote__logo {
+    width: 102px;
+    margin-bottom: 2.5rem;
+}
+.footnote__list {
+    display:flex;
+    gap: 1rem;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.footnote__list__link {
+    color: var(--text-main-color);
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.footnote__text {
+    font-size: 0.85rem;
+    color: var(--text-secondary-color);
+    margin-bottom: 1rem;
+}
