@@ -78,3 +78,21 @@
     display: inline-block;
     margin-top: 1rem;
 }
+.devices {
+    text-align: center;
+}
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 5rem 0;
+}
+.devices__title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-main-color);
+}
+.list__items {
+    color: var(--text-main-color);
+    font-size: 2rem;
+}
