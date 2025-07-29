@@ -9,9 +9,9 @@
     --text-main-color: #FFFFFF;
     --text-secondary-color: #C0C0C0;
     --text-third-color: #F9F9F9;
-    --buttom-blue: #167BF7;
+    --button-blue: #167BF7;
     --primary-font: Inter;
-    --buttom-color-hover: #4eccfe;
+    --button-color-hover: #4eccfe;
 }
 .content {
     background-color: var(--background-color);
@@ -42,8 +42,8 @@
 .main__content__image {
     margin: 2rem 0 4rem 0;
 }
-.main__content__buttom {
-    background-color: var(--buttom-blue);
+.main__content__button {
+    background-color: var(--button-blue);
     color: var(--text-main-color);
     border-radius: 5px;
     padding: 1em;
@@ -51,11 +51,11 @@
     margin-bottom: 1rem;
     text-decoration: none;
 }
-.main__content__buttom:hover{
-    background-color: var(--buttom-color-hover);
+.main__content__button:hover{
+    background-color: var(--button-color-hover);
     color: var(--background-color);
 }
-.second_buttom {
+.second_button {
     background-color: transparent;
     border: 2px solid var(--text-main-color);
 }
@@ -79,7 +79,7 @@
 .second__content__text {
     color: var(--text-third-color);
 }
-.third__buttom {
+.third__button {
     display: inline-block;
     margin-top: 1rem;
 }
@@ -128,7 +128,7 @@
     margin-bottom: 1rem;
 }
 .footnote__list__link:hover {
-    color: var(--buttom-color-hover);
+    color: var(--button-color-hover);
 }
 .footnote__list__link:active {
     color:red;
